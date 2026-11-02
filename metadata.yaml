@@ -1,0 +1,13 @@
+name: dafeiyu_hormone
+display_name: 大肥鱼心境
+short_desc: 四激素心境引擎，情绪随时间回归、被对话扰动
+desc: 四激素内分泌心境引擎：血清素/多巴胺/皮质醇/催产素随时间回归基线，被对话事件扰动，真实影响语气
+help: 装上即生效。不读不写任何记忆库。/心境 看数值，/心境重置 回基线
+version: 1.1.0
+author: Caoran1314
+category: AI 增强
+astrbot_version: ">=4.24.0"
+support_platforms:
+  - aiocqhttp
+  - webchat
+repo: https://github.com/Caoran1314/dafeiyu_hormone

@@ -1,0 +1,23 @@
+{
+  "enable": {
+    "description": "启用心境引擎",
+    "type": "bool",
+    "default": true,
+    "hint": "关掉后不注入任何情绪描述，她的语气回到纯人格文本"
+  },
+  "inject": {
+    "description": "是否把心境写进系统提示",
+    "type": "bool",
+    "default": true
+  },
+  "gate_proactive": {
+    "description": "心情差时压掉主动消息",
+    "type": "bool",
+    "default": true
+  },
+  "gate_cort": {
+    "description": "压制的压力阈值",
+    "type": "float",
+    "default": 0.45
+  }
+}
